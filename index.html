@@ -20,23 +20,23 @@
       <h1 class="text-xl font-bold text-indigo-600">Datenschatz</h1>
       <nav class="space-x-4">
         <a href="#" class="text-gray-600 hover:text-indigo-600">Start</a>
-        <a href="#" class="text-gray-600 hover:text-indigo-600">Über mich</a>
-        <a href="#" class="text-gray-600 hover:text-indigo-600">Kontakt</a>
+        <a href="#ueber" class="text-gray-600 hover:text-indigo-600">Über mich</a>
+        <a href="#kontakt" class="text-gray-600 hover:text-indigo-600">Kontakt</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <section class="bg-indigo-600 text-white py-20">
     <div class="max-w-4xl mx-auto text-center px-4">
-      <h2 class="text-4xl font-extrabold mb-4">Der Schatz der heutigen Welt!</h2>
-      <p class="text-xl mb-6">Die Artikelreihe Datenschatz, erschienen in der Betriebsratszeitung 'Wir Für Dich' der LINZ AG Strom Gas Wärme soll die Historie und Zusammenhänge der Thematik Daten im Internet beleuchten, vorallem in Hinblick auf personenbezogene Daten und deren Umgang und Stellung in der heutigen Zeit aus Sicht der Betriebsratskörperschaft. Die Artikelreihe ist auch Abschlussprojekt des Lehrganges 'Global Denken - Global Handeln' von Solidar Austria - ein entwicklungspolitischer Verein der österreichischen Gewerkschaftsbewegung. </p>
+      <h2 class="text-4xl font-extrabold mb-4">Der Schatz der heutigen Welt! Digitale Daten</h2>
+      <p class="text-xl mb-6">Die Artikelreihe Datenschatz, erschienen in der Betriebsratszeitung 'Wir Für Dich' der LINZ AG Strom Gas Wärme soll die Historie und Zusammenhänge der Thematik Daten im Internet beleuchten, vorallem in Hinblick auf personenbezogene Daten und deren Umgang und Stellung in der heutigen Zeit aus Sicht der Betriebsratskörperschaft. Die Artikelreihe ist auch Abschlussprojekt des Lehrganges 'Global Denken - Global Handeln' von Solidar Austria - ein entwicklungspolitischer Verein der österreichischen Gewerkschaftsbewegung.</p>
       <a href="#kontakt" class="bg-white text-indigo-600 font-semibold py-2 px-4 rounded-lg shadow hover:bg-gray-100 transition">Jetzt Kontakt aufnehmen</a>
     </div>
   </section>
 
   <!-- Über mich -->
-  <section class="py-16 px-4">
+  <section id="ueber" class="py-16 px-4">
     <div class="max-w-4xl mx-auto text-center">
       <h3 class="text-3xl font-bold mb-6">Über mich</h3>
       <p class="text-gray-600 leading-relaxed">
@@ -45,8 +45,32 @@
     </div>
   </section>
 
+  <!-- Kontaktformular -->
+  <section id="kontakt" class="py-20 bg-white">
+    <div class="max-w-xl mx-auto px-4">
+      <h3 class="text-3xl font-bold text-center mb-8">Kontakt aufnehmen</h3>
+      <form action="https://formspree.io/f/xdkglell" method="POST" class="space-y-6">
+        <div>
+          <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+          <input type="text" id="name" name="name" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-indigo-500 focus:border-indigo-500">
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">E-Mail</label>
+          <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-indigo-500 focus:border-indigo-500">
+        </div>
+        <div>
+          <label for="nachricht" class="block text-sm font-medium text-gray-700">Nachricht</label>
+          <textarea id="nachricht" name="nachricht" rows="5" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-indigo-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-indigo-700 transition">
+          Absenden
+        </button>
+      </form>
+    </div>
+  </section>
+
   <!-- Footer -->
-  <footer class="bg-white border-t mt-20 p-4 text-center text-sm text-gray-500">
+  <footer class="bg-gray-100 border-t mt-20 p-4 text-center text-sm text-gray-500">
     © 2025 MeineWebseite. Alle Rechte vorbehalten.
   </footer>
 
