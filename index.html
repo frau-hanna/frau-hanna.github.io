@@ -11,15 +11,68 @@
         extend: {
           colors: {
             battleship: '#6F827E',
+            gunmetal: '#272E3B',
+            payne: '#51666E',
+            sunset: '#F3CA93',
+            beige: '#D7E0CA',
+            ash: '#A5C7C2',
           }
         }
       }
     }
   </script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
+   <style>
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: sans-serif;
+      margin: 2em;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+
+    .index-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 2em;
+      margin-top: 2em;
+    }
+
+    .index-container img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .index-container ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .index-container li {
+      margin-bottom: 0.5em;
+    }
+
+    .index-container a {
+      text-decoration: none;
+      color: #007acc;
+    }
+
+    .index-container a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+      .index-container {
+        flex-direction: column;
+        align-items: center;
+      }
     }
   </style>
 </head>
@@ -46,6 +99,25 @@
     </div>
   </section>
 
+  <!-- Mittelteil -->
+  <section id="index" class="bg-sunset text-black py-20">
+    <div class="foto">
+      <img src="images/Datenschatz-MidjourneyBot.png" alt="Datenquelle erstellt von MidjourneyBot">
+    </div>
+
+    <div class="index">
+      <h2>Inhaltsverzeichnis</h2>
+      <ul>
+        <li><a href="daten0.html">Seite 1 – Einführung</a></li>
+        <li><a href="daten1.html">Seite 2 – binäre Evolution</a></li>
+        <li><a href="daten2.html">Seite 3 – Datenspeicher</a></li>
+        <li><a href="daten3.html">Seite 4 – Datensammlung</a></li>
+        <li><a href="daten4.html">Seite 5 – Datenanalyse</a></li>
+        <li><a href="daten5.html">Seite 6 – Datenschutz</a></li>
+      </ul>
+    </div>
+  </section>
+    
   <!-- Über mich -->
   <section id="ueber" class="py-16 px-4">
     <div class="max-w-4xl mx-auto text-center">
