@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Datenschatz</title>
   <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            burlwood: '#9B716B',
+          }
+        }
+      }
+    }
+  </script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     body {
@@ -17,21 +28,21 @@
   <!-- Header -->
   <header class="bg-white shadow-md p-4">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
-      <h1 class="text-xl font-bold text-indigo-600">Datenschatz</h1>
+      <h1 class="text-xl font-bold text-burlwood">Datenschatz</h1>
       <nav class="space-x-4">
-        <a href="#" class="text-gray-600 hover:text-indigo-600">Start</a>
-        <a href="#ueber" class="text-gray-600 hover:text-indigo-600">Über mich</a>
-        <a href="#kontakt" class="text-gray-600 hover:text-indigo-600">Kontakt</a>
+        <a href="#" class="text-gray-600 hover:text-burlwood">Start</a>
+        <a href="#ueber" class="text-gray-600 hover:text-burlwood">Über mich</a>
+        <a href="#kontakt" class="text-gray-600 hover:text-burlwood">Kontakt</a>
       </nav>
     </div>
   </header>
 
   <!-- Hero -->
-  <section class="bg-indigo-600 text-white py-20">
+  <section class="bg-burlwood text-white py-20">
     <div class="max-w-4xl mx-auto text-center px-4">
       <h2 class="text-4xl font-extrabold mb-4">Der Schatz der heutigen Welt! Digitale Daten</h2>
       <p class="text-xl mb-6">Die Artikelreihe Datenschatz, erschienen in der Betriebsratszeitung 'Wir Für Dich' der LINZ AG Strom Gas Wärme soll die Historie und Zusammenhänge der Thematik Daten im Internet beleuchten, vorallem in Hinblick auf personenbezogene Daten und deren Umgang und Stellung in der heutigen Zeit aus Sicht der Betriebsratskörperschaft. Die Artikelreihe ist auch Abschlussprojekt des Lehrganges 'Global Denken - Global Handeln' von Solidar Austria - ein entwicklungspolitischer Verein der österreichischen Gewerkschaftsbewegung.</p>
-      <a href="#kontakt" class="bg-white text-indigo-600 font-semibold py-2 px-4 rounded-lg shadow hover:bg-gray-100 transition">Jetzt Kontakt aufnehmen</a>
+      <a href="#kontakt" class="bg-white text-burlwood font-semibold py-2 px-4 rounded-lg shadow hover:bg-gray-100 transition">Jetzt Kontakt aufnehmen</a>
     </div>
   </section>
 
@@ -62,7 +73,7 @@
           <label for="nachricht" class="block text-sm font-medium text-gray-700">Nachricht</label>
           <textarea id="nachricht" name="nachricht" rows="5" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:ring-indigo-500 focus:border-indigo-500"></textarea>
         </div>
-        <button type="submit" class="w-full bg-indigo-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-indigo-700 transition">
+        <button type="submit" class="w-full bg-burlwood text-white font-semibold py-2 px-4 rounded-md hover:bg-indigo-700 transition">
           Absenden
         </button>
       </form>
