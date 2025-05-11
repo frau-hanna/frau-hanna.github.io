@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digitale Werkzeuge & Tipps</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            battleship: '#6F827E',
+            gunmetal: '#272E3B',
+            sunset: '#F3CA93',
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold text-battleship">Digitale Tipps & Werkzeuge</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="text-gray-600 hover:text-battleship">Start</a>
+        <a href="glossar.html" class="text-gray-600 hover:text-battleship">Glossar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Inhalt -->
+  <main class="max-w-4xl mx-auto py-16 px-4">
+    <h2 class="text-3xl font-bold mb-10 text-center">Empfehlenswerte digitale Werkzeuge</h2>
+
+    <section class="mb-12">
+      <h3 class="text-2xl font-semibold text-gunmetal mb-4">🌐 Suchmaschinen</h3>
+      <ul class="list-disc pl-6 space-y-2">
+        <li><a href="https://duckduckgo.com/" target="_blank" class="underline text-battleship hover:text-gunmetal">DuckDuckGo</a> – Keine Speicherung von Suchverläufen</li>
+        <li><a href="https://www.startpage.com/" target="_blank" class="underline text-battleship hover:text-gunmetal">Startpage</a> – Anonyme Google-Ergebnisse</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h3 class="text-2xl font-semibold text-gunmetal mb-4">📱 Messenger</h3>
+      <ul class="list-disc pl-6 space-y-2">
+        <li><a href="https://signal.org/" target="_blank" class="underline text-battleship hover:text-gunmetal">Signal</a> – Open Source & Ende-zu-Ende-verschlüsselt</li>
+        <li><a href="https://element.io/" target="_blank" class="underline text-battleship hover:text-gunmetal">Element (Matrix)</a> – föderiert & datenschutzfreundlich</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h3 class="text-2xl font-semibold text-gunmetal mb-4">🛠️ Browser & Plugins</h3>
+      <ul class="list-disc pl-6 space-y-2">
+        <li><a href="https://brave.com/" target="_blank" class="underline text-battleship hover:text-gunmetal">Brave</a> – Privater Chromium-basierter Browser</li>
+        <li><a href="https://addons.mozilla.org/firefox/addon/ublock-origin/" target="_blank" class="underline text-battleship hover:text-gunmetal">uBlock Origin</a> – effektiver Werbe- und Tracker-Blocker</li>
+        <li><a href="https://www.ghostery.com/" target="_blank" class="underline text-battleship hover:text-gunmetal">Ghostery</a> – Tracker erkennen & kontrollieren</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h3 class="text-2xl font-semibold text-gunmetal mb-4">🔐 Passwort & Identität</h3>
+      <ul class="list-disc pl-6 space-y-2">
+        <li><a href="https://bitwarden.com/" target="_blank" class="underline text-battleship hover:text-gunmetal">Bitwarden</a> – Open-Source Passwortmanager</li>
+        <li><a href="https://haveibeenpwned.com/" target="_blank" class="underline text-battleship hover:text-gunmetal">Have I Been Pwned</a> – Prüfen, ob E-Mail-Adresse in einem Datenleck auftauchte</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="text-3xl font-bold mt-20 mb-6 text-center">🧩 Checkliste für digitalen Alltag</h2>
+      <ul class="list-disc pl-6 space-y-2 text-lg">
+        <li>Nutze sichere & unterschiedliche Passwörter – verwalte sie in einem Passwortmanager</li>
+        <li>Aktiviere Zwei-Faktor-Authentifizierung (2FA), wo immer möglich</li>
+        <li>Klicke niemals auf Links in unerwarteten E-Mails oder SMS</li>
+        <li>Vermeide öffentliche WLANs ohne VPN bei sensiblen Vorgängen</li>
+        <li>Deaktiviere Kamera/Mikrofon für Apps, die sie nicht brauchen</li>
+        <li>Verwende Suchmaschinen und Messenger, die deine Daten respektieren</li>
+        <li>Installiere regelmäßig Updates – sie schließen Sicherheitslücken</li>
+      </ul>
+    </section>
+
+    <div class="mt-12 flex justify-center">
+      <a href="index.html" class="text-battleship hover:underline text-sm">&larr; Zurück zur Startseite</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 border-t mt-20 p-4 text-center text-sm text-gray-500">
+    © 2025 Frau Hanna. Alle Rechte vorbehalten.
+  </footer>
+
+</body>
+</html>

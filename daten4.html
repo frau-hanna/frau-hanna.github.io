@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datenschatz – Folge 4</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            battleship: '#6F827E',
+            gunmetal: '#272E3B',
+            payne: '#51666E',
+            sunset: '#F3CA93',
+            beige: '#D7E0CA',
+            ash: '#A5C7C2',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-4">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold text-battleship">Datenschatz</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="text-gray-600 hover:text-battleship">Start</a>
+        <a href="index.html#ueber" class="text-gray-600 hover:text-battleship">Über mich</a>
+        <a href="index.html#kontakt" class="text-gray-600 hover:text-battleship">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-battleship text-white py-20">
+    <div class="max-w-4xl mx-auto text-center px-4 flex flex-col items-center">
+      <img src="images/Datenschatz-MidjourneyBot.png" alt="KI-Bild zu Datenanalyse" class="w-28 md:w-36 mb-6 rounded shadow">
+      <h2 class="text-4xl font-extrabold mb-4">Der Datenschatz – Folge 4: Datenanalyse</h2>
+      <p class="text-xl leading-relaxed max-w-2xl">Wie Daten in Erkenntnisse verwandelt werden – und welche Rolle dabei Algorithmen und künstliche Intelligenz spielen.</p>
+    </div>
+  </section>
+
+  <!-- Inhalt -->
+  <main class="max-w-3xl mx-auto py-16 px-4">
+    <h3 class="text-2xl font-semibold mt-12 mb-4 text-gunmetal">1. Was ist Datenanalyse?</h3>
+    <p class="mb-4 leading-relaxed">
+      Datenanalyse ist der Prozess, mit dem große Mengen von Informationen ausgewertet werden, um Muster, Zusammenhänge oder Auffälligkeiten zu erkennen. Dabei geht es nicht nur um Zahlen – auch Texte, Bilder oder Bewegungsdaten können analysiert werden.
+    </p>
+    <p class="mb-4 leading-relaxed">
+      Ziel ist es, aus Rohdaten Erkenntnisse zu gewinnen – z. B. für bessere Entscheidungen, Vorhersagen oder Automatisierung.
+    </p>
+
+    <h3 class="text-2xl font-semibold mt-12 mb-4 text-gunmetal">2. Was ist ein Algorithmus?</h3>
+    <p class="mb-4 leading-relaxed">
+      Ein <strong>Algorithmus</strong> ist eine eindeutige Schritt-für-Schritt-Anweisung, wie ein bestimmtes Problem gelöst werden soll. Man kann ihn sich wie ein digitales Rezept vorstellen: Wenn A passiert, dann mache B. Algorithmen stecken heute hinter fast jeder Software – vom Taschenrechner bis zur Suchmaschine.
+    </p>
+
+    <h3 class="text-2xl font-semibold mt-12 mb-4 text-gunmetal">3. Wie lernt eine Maschine?</h3>
+    <p class="mb-4 leading-relaxed">
+      Beim <strong>maschinellen Lernen</strong> werden Algorithmen mit vielen Beispieldaten „trainiert“. Die Maschine erkennt dabei selbstständig Regeln und Muster. Ein Beispiel: Zeigt man einer KI zehntausende Fotos von Katzen und Hunden, lernt sie durch Wiederholung, wie beides voneinander unterschieden werden kann.
+    </p>
+    <p class="mb-4 leading-relaxed">
+      Je mehr und je vielfältiger die Daten, desto besser kann die KI lernen. Aus diesem Prinzip entstehen heute viele Anwendungen – vom Autopilot im Auto bis zur Spracherkennung im Smartphone.
+    </p>
+
+    <h3 class="text-2xl font-semibold mt-12 mb-4 text-gunmetal">4. Wie kommt eine KI zur Antwort?</h3>
+    <p class="mb-4 leading-relaxed">
+      Eine KI wie ChatGPT analysiert bei jeder Anfrage den Text, vergleicht ihn mit dem gelernten Wissen und berechnet daraufhin die <em>wahrscheinlichste sinnvolle Antwort</em>. Dabei wird kein Text einfach kopiert – sondern Wort für Wort neu erstellt.
+    </p>
+    <p class="mb-4 leading-relaxed">
+      Grundlage dafür sind gewaltige Datenmengen aus dem Internet – Texte, Bücher, Webseiten. Die KI erkennt darin sprachliche Muster, typische Formulierungen und inhaltliche Zusammenhänge.
+    </p>
+
+    <h3 class="text-2xl font-semibold mt-12 mb-4 text-gunmetal">5. Wo überall kommt Mustererkennung heute vor?</h3>
+    <ul class="list-disc pl-6 space-y-2 mb-4">
+      <li>Bei E-Mails: automatische Erkennung von Spam</li>
+      <li>Im Gesundheitswesen: Analyse von Röntgenbildern</li>
+      <li>In der Industrie: Qualitätskontrolle per Kamera</li>
+      <li>Im Verkehr: automatische Nummernschilderkennung</li>
+      <li>Im Onlinehandel: persönliche Produktempfehlungen</li>
+    </ul>
+
+    <blockquote class="border-l-4 border-battleship pl-4 italic text-gray-700 my-6">
+      „Algorithmen denken nicht – sie rechnen Wahrscheinlichkeiten.“ 
+    </blockquote>
+
+    <h3 class="text-2xl font-semibold mt-12 mb-4 text-gunmetal">6. Chancen und Risiken</h3>
+    <p class="mb-4 leading-relaxed">
+      Datenanalyse und künstliche Intelligenz können uns im Alltag helfen – bei Diagnosen, Verkehrsplanung oder persönlicher Weiterbildung. Gleichzeitig entstehen Risiken: Vorurteile in den Daten führen zu Vorurteilen im Ergebnis. Wer die Daten kontrolliert, kontrolliert auch die Deutung.
+    </p>
+    <p class="mb-4 leading-relaxed">
+      Deshalb braucht es Transparenz, Regeln und Kontrolle – damit Technik dem Menschen dient und nicht umgekehrt.
+    </p>
+
+    <!-- Quellen -->
+    <section class="mt-16">
+      <h3 class="text-xl font-semibold mb-4 text-gunmetal">Quellen</h3>
+      <ul class="list-disc pl-6 space-y-2 text-sm text-gray-800">
+        <li><a href="https://www.bpb.de/themen/digitales/datenanalyse/" target="_blank" class="text-battleship underline hover:text-gunmetal">Bundeszentrale für politische Bildung – Datenanalyse einfach erklärt</a></li>
+        <li><a href="https://www.spektrum.de/lexikon/neurowissenschaft/algorithmus/96" target="_blank" class="text-battleship underline hover:text-gunmetal">Spektrum Lexikon – Algorithmus</a></li>
+        <li><a href="https://openai.com/research" target="_blank" class="text-battleship underline hover:text-gunmetal">OpenAI Research – Grundlagen des KI-Trainings</a></li>
+        <li><a href="https://www.zeit.de/digital/datenschutz/2021-11/kuenstliche-intelligenz-vorurteile-diskriminierung-algorithmen" target="_blank" class="text-battleship underline hover:text-gunmetal">ZEIT Online – Wie KI Vorurteile lernt</a></li>
+        <li><a href="https://de.wikipedia.org/wiki/Maschinelles_Lernen" target="_blank" class="text-battleship underline hover:text-gunmetal">Wikipedia – Maschinelles Lernen</a></li>
+      </ul>
+    </section>
+
+    <!-- Navigation -->
+    <div class="mt-12 flex justify-between text-sm">
+      <a href="daten3.html" class="text-battleship hover:underline">&larr; Zurück zu Folge 3</a>
+      <a href="daten5.html" class="text-battleship hover:underline">Weiter zu Folge 5 &rarr;</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 border-t mt-20 p-4 text-center text-sm text-gray-500">
+    © 2025 Frau Hanna. Alle Rechte vorbehalten.
+  </footer>
+
+</body>
+</html>
